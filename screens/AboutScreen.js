@@ -1,10 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
 import { Text, Button } from 'react-native-paper';
-import { useNavigation } from '@react-navigation/native'; // Importe a função useNavigation
+import { useNavigation } from '@react-navigation/native';
 
 const AboutScreen = () => {
-  const navigation = useNavigation(); // Inicialize a navegação
+  const navigation = useNavigation();
 
   return (
     <View>
@@ -12,7 +12,7 @@ const AboutScreen = () => {
       <Welcome name="Visitante" />
       <Button
         mode="contained"
-        onPress={() => navigation.navigate('Home')} // Navegue para a tela "Home" ao pressionar o botão
+        onPress={() => navigation.navigate('Home')} // Corrigido para "Home" em vez de "HomeScreen"
       >
         Ir para a tela inicial
       </Button>
