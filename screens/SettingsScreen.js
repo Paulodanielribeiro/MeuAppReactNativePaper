@@ -12,7 +12,7 @@ const SettingsScreen = () => {
       <Text>Configurações</Text>
       <Welcome name="Alice" />
       <Button
-        onPress={() => navigation.navigate('Profile')} // Corrigido para "Profile" em vez de "ProfileScreen"
+        onPress={() => navigation.navigate('Profile')} 
       >
         Ir para o Perfil
       </Button>

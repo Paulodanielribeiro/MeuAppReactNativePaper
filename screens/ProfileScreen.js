@@ -11,7 +11,7 @@ const ProfileScreen = ({ navigation }) => {
 
       <Button
         mode="contained"
-        onPress={() => navigation.navigate('Settings')} // Navega para a tela "Settings"
+        onPress={() => navigation.navigate('Settings')} 
       >
         Ir para Configurações
       </Button>

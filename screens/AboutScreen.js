@@ -2,6 +2,8 @@ import React from 'react';
 import { View } from 'react-native';
 import { Text, Button } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
+import Welcome from '../components/Welcome';
+
 
 const AboutScreen = () => {
   const navigation = useNavigation();
@@ -12,7 +14,7 @@ const AboutScreen = () => {
       <Welcome name="Visitante" />
       <Button
         mode="contained"
-        onPress={() => navigation.navigate('Home')} // Corrigido para "Home" em vez de "HomeScreen"
+        onPress={() => navigation.navigate('Home')} 
       >
         Ir para a tela inicial
       </Button>
